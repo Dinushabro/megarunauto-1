@@ -16,7 +16,7 @@ ___________________________________________________________
 \033[1;36;40m     |_|  |_|\___|\__, /_/   \_\ |_| \_\\____/|_| \_|
 \033[1;34;40m                  |___/
 
-\033[1;35;40m              [+] Tool By ERROR KILLER
+\033[1;35;40m              [+] Tool created by Ⓜⓐⓛⓢⓗⓐⓝ 
 \033[1;32;40m___________________________________________________________
 """
 print(name, "")
@@ -82,7 +82,7 @@ def main():
             print(bar)  
         elif resp == '<Response [200]>':
             print(bar)
-            print("\n\033[1;32;40m [+] You Won Check Balance ... [+]")
+            print("\n\033[1;32;40m [+] You Won Check Your Data Balance ... [+]")
             print(bar)
         else:
             print(bar)
@@ -91,10 +91,10 @@ def main():
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "Please Wait For Next request",end="")
-        for i in range(180):
+        print("\033[1;0;40m\n",str(ss), "Please Wait For Next Request",end="")
+        for i in range(200):
             
-            pr = i/180*100
+            pr = i/200*100
             print("\033[1;36;40m\n>>> [+]",str(int(pr)) +"% ",end="")
             
             time.sleep(0.5)
